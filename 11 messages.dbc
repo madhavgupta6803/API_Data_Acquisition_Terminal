@@ -1,0 +1,178 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ RPM_1_LSB : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPM_2_LSB : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0002 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cell21 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell22 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell23 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell24 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell17 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell18 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell19 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell20 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+
+BO_ 104 Front_CAN: 8 Vector__XXX
+ SG_ sens_1_MSB : 0|8@1+ (4,0) [0|1020] "" Vector__XXX
+ SG_ sens_1_LSB : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ sens_2_MSB : 8|8@1+ (4,0) [0|1020] "" Vector__XXX
+ SG_ sens_2_LSB : 34|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ sens_3_MSB : 16|8@1+ (4,0) [0|1020] "" Vector__XXX
+ SG_ sens_3_LSB : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ sens_4_MSB : 24|8@1+ (4,0) [0|1020] "" Vector__XXX
+ SG_ sens_4_LSB : 38|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 112 Yaw_Msg_1: 8 Vector__XXX
+ SG_ Yaw_rate_1 : 0|16@1+ (0.005,0) [0|0] "°/s" Vector__XXX
+ SG_ Acc_Y_axis : 32|16@1+ (0.0001274,0) [0|0] "g" Vector__XXX
+
+BO_ 128 Yaw_Msg_2: 8 Vector__XXX
+ SG_ Yaw_ang_accln : 0|16@1+ (0.125,0) [0|0] "°/s²" Vector__XXX
+ SG_ Acc_X_Axis : 32|16@1+ (0.0001274,0) [0|0] "g" Vector__XXX
+
+BO_ 136 Susp_Front: 8 Vector__XXX
+ SG_ Sens_1_MSB : 0|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Sens_2_MSB : 8|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Sens_3_MSB : 16|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Sens_4_MSB : 24|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Sens_1_LSB : 32|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sens_2_LSB : 34|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sens_3_LSB : 36|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sens_4_LSB : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 152 Mid_CAN: 8 Vector__XXX
+ SG_ Susp_FL : 0|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Susp_FL_LSB : 32|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Susp_FR : 8|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Susp_FR_LSB : 34|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Loadcell1 : 16|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Loadcell2 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 144 Rear_CAN: 8 Vector__XXX
+ SG_ Susp_RL : 0|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ Susp_RR : 8|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ rear_3 : 16|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ rear_4 : 24|8@1+ (4,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0017 : 32|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0018 : 34|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0019 : 36|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0020 : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 120 RPM_Msg: 8 Vector__XXX
+ SG_ RPM_1_MSB : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPM_2_MSB : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1313 Current_IVT: 6 Vector__XXX
+ SG_ Current : 23|32@0- (1,0) [0|0] "mA" Vector__XXX
+
+BO_ 1314 Voltage_1_IVT: 6 Vector__XXX
+ SG_ Voltage_1 : 23|32@0- (1,0) [0|0] "mV" Vector__XXX
+
+BO_ 1315 Voltage_2_IVT: 6 Vector__XXX
+ SG_ Voltage_2 : 23|32@0- (1,0) [0|0] "mV" Vector__XXX
+
+BO_ 1316 Voltage_3_IVT: 6 Vector__XXX
+ SG_ Voltage_3 : 23|32@0- (1,0) [0|0] "mV" Vector__XXX
+
+BO_ 611 BMS_IC_1: 8 Vector__XXX
+ SG_ Cell1 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell2 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell3 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell4 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+
+BO_ 612 BMS_IC_2: 8 Vector__XXX
+ SG_ Cell5 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell6 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell7 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell8 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+
+BO_ 613 BMS_IC_3: 8 Vector__XXX
+ SG_ Cell9 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell10 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell11 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell12 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+
+BO_ 614 BMS_IC_4: 8 Vector__XXX
+ SG_ Cell13 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell14 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell15 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ Cell16 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+
+BO_ 621 BMS_Msg_5: 8 Vector__XXX
+ SG_ cell17 : 7|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ cell18 : 23|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ cell19 : 39|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ cell20 : 55|16@0+ (0.0001,0) [0|0] "V" Vector__XXX
+
+
+
+CM_ BO_ 104 "Front CAN Node
+";
+CM_ BO_ 112 "Yaw Sensor Message 1
+";
+CM_ BO_ 128 "Yaw Sensor Message 2
+";
+CM_ BO_ 136 "Front Suspension
+";
+CM_ BO_ 152 "MidCAN Message
+";
+CM_ BO_ 144 "Rear CAN Message
+";
+CM_ BO_ 120 "RPM Values
+";
+CM_ BO_ 1313 "Current
+";
+CM_ BO_ 1314 "Voltage 1
+
+
+";
+CM_ BO_ 1315 "Voltage 2
+";
+CM_ BO_ 1316 "Voltage 3
+";
+CM_ BO_ 611 "Voltages of Cells 1-4";
+CM_ BO_ 612 "Voltages of cells 5-8";
+CM_ BO_ 613 "Voltages of cells 9-12
+";
+CM_ BO_ 614 "Voltages of Cells 13-16
+";
+CM_ BO_ 621 "Voltages of Cells 17-20
+";
+
